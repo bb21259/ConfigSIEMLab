@@ -1,6 +1,8 @@
 <h1>Configuring a SIEM Lab</h1>
 
  Video up in the future...
+ <br/>
+ <img src="https://i.imgur.com/XDGyFk3.png" height="80%" width="80%" alt="TheOverview"/>
 
 <h2>Description</h2>
 In this lab, I setup a SIEM using Azure's sentinel and connect it to a live windows virtual machine acting as a honey pot. Using some tools on Azure I am able to view live RDP brute force attacks from around the world. I will be using a custom PowerShell script to look up the attackers Geolocation information and plot it on the Azure Sentinel Map.
@@ -25,7 +27,7 @@ In this lab, I setup a SIEM using Azure's sentinel and connect it to a live wind
 Launch Azure: <br/>
 <img src="https://i.imgur.com/qxfzI5V.png" height="80%" width="80%" alt="TheFirstStep"/>
 <br />
-<b>As the first step, go ahead and set up an Azure account (it's free) you have $200 of resources given to you to start with. Next you're going to configurea Windows VM in Azure to have its all its ports open to make it an inviting honeypot for attackers to try getting into. Make sure to add the next resources we use into te same resource group. <b/>
+<b>As the first step, go ahead and set up an Azure account (it's free) you have $200 of resources given to you to start with. Next you're going to configure a Windows VM in Azure to have its all its ports open to make it an inviting honeypot for attackers to try getting into. Make sure to add the next resources we use into te same resource group. <b/>
 <br/>
 <br />
 Using Log Analytics Workspaces:  <br/>
